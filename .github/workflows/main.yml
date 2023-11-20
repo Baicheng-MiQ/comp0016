@@ -1,7 +1,10 @@
-name: Build Pelican Blog
-run-name: Build this blog to output folder by @${{ github.actor }}
+name: Deploy Pelican Blog
+run-name: Deploy this blog to output folder by @${{ github.actor }}
 on: 
-  [push, workflow_dispatch]
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 jobs:
   build:    
     runs-on: ubuntu-latest
