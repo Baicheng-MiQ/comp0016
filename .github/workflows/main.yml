@@ -5,12 +5,12 @@ on:
     branches:
       - main  # or whichever branch you are using
 jobs:
-  build:
-    if: github.actor != 'github-actions[bot]'
-    
+  build:    
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
       
       - name: Set up Python 3.9
         uses: actions/setup-python@v4.7.1
@@ -26,9 +26,6 @@ jobs:
         run: pelican content
         
       - name: Commit and push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m 'Automatic update of Pelican content' || exit 0
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Auto built blog.
