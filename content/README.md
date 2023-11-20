@@ -2,7 +2,7 @@ Title: How to write content
 Date: 2023-11-20 02:03
 Category: Guide
 
-# Introduction
+# Introduction to Pelican
 The blog is powered by [Pelican](https://blog.getpelican.com/).
 
 Detailed documentation can be found [here](https://docs.getpelican.com/en/latest/index.html).
