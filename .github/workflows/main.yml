@@ -61,5 +61,6 @@ jobs:
             mv output/* .
             find . -type f -exec chmod 664 {} \;
             find * -type d -exec chmod 775 {} \;
+            rm -rf /cs/student/ug/2022/baichyin/deploy.tar
             
       
