@@ -12,7 +12,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - run: echo ${{ secrets.ssh-key }}
+      - run: echo ${{ secrets.UCL_SSH_KEY }}
       
       - name: Set up Python 3.9
         uses: actions/setup-python@v4.7.1
