@@ -1,5 +1,5 @@
 name: Build Pelican Blog
-run-name: Build this blog to content folder by @${{ github.actor }}
+run-name: Build this blog to output folder by @${{ github.actor }}
 on: 
   [push, workflow_dispatch]
 jobs:
@@ -11,8 +11,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
-
-      - run: echo ${{ secrets.UCL_SSH_KEY }}
+      - name: executing remote ssh commands using ssh key
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: csrw2.cs.ucl.ac.uk
+          username: baichyin
+          key: ${{ secrets.SSH_PASSWORD_BC }}
+          port: 22
+          script: whoami
       
       - name: Set up Python 3.9
         uses: actions/setup-python@v4.7.1
