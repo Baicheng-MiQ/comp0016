@@ -58,6 +58,7 @@ jobs:
             rm -rf /cs/student/www/2023/group25
             cd /cs/student/www/2023/group25
             tar -xf /cs/student/ug/2022/baichyin/deploy.tar -C .
+            mv deploy/* .
             find . -type f -exec chmod 664 {} \;
             find * -type d -exec chmod 775 {} \;
             
