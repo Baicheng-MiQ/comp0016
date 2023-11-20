@@ -16,7 +16,7 @@ jobs:
         with:
           host: csrw2.cs.ucl.ac.uk
           username: baichyin
-          key: ${{ secrets.SSH_PASSWORD_BC }}
+          password: ${{ secrets.SSH_PASSWORD_BC }}
           port: 22
           script: whoami
       
