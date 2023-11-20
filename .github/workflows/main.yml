@@ -1,9 +1,10 @@
-name: Build Pelican Blog
-run-name: Build this blog to content folder by @${{ github.actor }}
+name: Deploy Pelican Blog
+run-name: Deploy this blog to output folder by @${{ github.actor }}
 on: 
   push:
     branches:
-      - main  # or whichever branch you are using
+      - main
+  workflow_dispatch:
 jobs:
   build:    
     runs-on: ubuntu-latest
@@ -31,3 +32,33 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Auto built blog.
+
+      - name: tar output folder
+        run: tar -cvf deploy.tar ./output
+
+      - name: copy file to UCL host
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: csrw2.cs.ucl.ac.uk
+          username: baichyin
+          password: ${{ secrets.SSH_PASSWORD_BC }}
+          port: 22
+          source: deploy.tar
+          target: /cs/student/ug/2022/baichyin
+
+
+      - name: deploy uploaded file
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: csrw2.cs.ucl.ac.uk
+          username: baichyin
+          password: ${{ secrets.SSH_PASSWORD_BC }}
+          port: 22
+          script: |
+            rm -rf /cs/student/www/2023/group25
+            cd /cs/student/www/2023/group25
+            tar -xf /cs/student/ug/2022/baichyin/deploy.tar -C .
+            find . -type f -exec chmod 664 {} \;
+            find * -type d -exec chmod 775 {} \;
+            
+      
