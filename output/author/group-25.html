@@ -13,12 +13,38 @@
                 <h1><a href="http://students.cs.ucl.ac.uk/2023/group25/">COMP0016 Group 25 Blog</a></h1>
                 <nav><ul>
                     <li><a href="http://students.cs.ucl.ac.uk/2023/group25/category/guide.html">Guide</a></li>
+                    <li><a href="http://students.cs.ucl.ac.uk/2023/group25/category/ins.html">Ins</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="http://students.cs.ucl.ac.uk/2023/group25/how-to-write-content.html">How to write content</a></h1>
+                    <h1 class="entry-title"><a href="http://students.cs.ucl.ac.uk/2023/group25/new-content.html">New Content</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2023-11-21T15:13:00+00:00">
+                Published: Tue 21 November 2023
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://students.cs.ucl.ac.uk/2023/group25/author/group-25.html">Group 25</a>
+        </address>
+<p>In <a href="http://students.cs.ucl.ac.uk/2023/group25/category/ins.html">Ins</a>.</p>
+
+</footer><!-- /.post-info --><h1>Content</h1>
+<p>Content</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://students.cs.ucl.ac.uk/2023/group25/how-to-write-content.html" rel="bookmark"
+                           title="Permalink to How to write content">How to write content</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2023-11-20T06:48:00+00:00">
                 Published: Mon 20 November 2023
@@ -29,67 +55,17 @@
         </address>
 <p>In <a href="http://students.cs.ucl.ac.uk/2023/group25/category/guide.html">Guide</a>.</p>
 
-</footer><!-- /.post-info --><h1>Visit hosted website <a href="http://students.cs.ucl.ac.uk/2023/group25/">here</a></h1>
+</footer><!-- /.post-info -->                <h1>Visit hosted website <a href="http://students.cs.ucl.ac.uk/2023/group25/">here</a></h1>
 <p><img alt="Screenshot" src="images/readme-screenshot.png"></p>
 <h1>Introduction to Pelican</h1>
 <p>The blog is powered by <a href="https://blog.getpelican.com/">Pelican</a>.</p>
 <p>Detailed documentation can be found <a href="https://docs.getpelican.com/en/latest/index.html">here</a>.</p>
-<p><strong>Since ucl cs only hosts static websites, we need to generate the website locally and then deploy it to the server. That's why it might be a bit complicated. But don't worry, it's not that hard if you follow the steps below.</strong></p>
-<h1>Automatic deployment by GitHub Actions</h1>
-<h2>Write content</h2>
-<p>Write content in markdown format in <code>content</code> folder.</p>
-<p>Learn more about Markdown <a href="https://www.markdownguide.org/basic-syntax/">here</a></p>
-<p>Every content must follow this format:</p>
-<div class="highlight"><pre><span></span><code>Title: My First Blog
-Date: 2023-11-03 10:20
-Category: Blog
-
-<span class="gh"># My First Blog</span>
-blablabla
-</code></pre></div>
-
-<h2>Deploy</h2>
-<p>I've set up a GitHub Actions workflow to automatically deploy the website to the UCL server.</p>
-<p>Simply push to the <code>main</code> branch and the website will be automatically deployed to the UCL server.
-<img alt="deploy" src="images/readme-github-action.png"></p>
-<h1>Manual deployment</h1>
-<p>Normally you don't need to do this since the website is automatically deployed by GitHub Actions. However, if you want to deploy the website manually, follow the steps below.</p>
-<h2>Install environment</h2>
-<p>Run this on a local machine since ucl cs managed machines have outdated pip which causes errors.</p>
-<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span><span class="s2">&quot;pelican[markdown]&quot;</span>
-</code></pre></div>
-
-<h2>Write content</h2>
-<p>Write content in markdown format in <code>content</code> folder.</p>
-<p>Learn more about Markdown <a href="https://www.markdownguide.org/basic-syntax/">here</a></p>
-<p>Every content should follow this format:</p>
-<div class="highlight"><pre><span></span><code>Title: My First Blog
-Date: 2023-11-03 10:20
-Category: Blog
-
-<span class="gh"># My First Blog</span>
-blablabla
-</code></pre></div>
-
-<h2>Generate website</h2>
-<p>Run this on local machine to generate the website.</p>
-<div class="highlight"><pre><span></span><code>pelican<span class="w"> </span>content
-</code></pre></div>
-
-<h2>Preview website</h2>
-<p>Run this on local machine to preview the website.</p>
-<div class="highlight"><pre><span></span><code>pelican<span class="w"> </span>--listen
-</code></pre></div>
-
-<p>Then open <code>http://localhost:8000</code> in browser.</p>
-<h2>Deploy</h2>
-<p>You need access to a ucl cs managed machine to deploy the website.</p>
-<p>A detailed guide can be found <a href="https://moodle.ucl.ac.uk/pluginfile.php/6251276/mod_forum/attachment/1748944/Guidelines%20for%20Hosting%20the%20COMP0016%20Project%20Website.pdf">here</a>.</p>
-<p>Make sure you export this project folder to the managed machine (this is detailed in the guide above)</p>
-<p>Run this on ucl cs managed machines to deploy the website.</p>
-<div class="highlight"><pre><span></span><code>sh<span class="w"> </span>deploy.sh
-</code></pre></div>                </article>
-            </aside><!-- /#featured -->
+<p><strong>Since ucl cs only hosts static websites, we need to generate the website locally and then deploy it to the server. That's why it might be a bit complicated. But don't …</strong></p>
+                <a class="readmore" href="http://students.cs.ucl.ac.uk/2023/group25/how-to-write-content.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>
