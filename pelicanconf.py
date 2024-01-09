@@ -1,6 +1,6 @@
 AUTHOR = 'Group 25'
 SITENAME = 'COMP0016 Group 25 Blog'
-SITEURL = "http://students.cs.ucl.ac.uk/2023/group25"
+SITEURL = "https://students.cs.ucl.ac.uk/2023/group25"
 
 PATH = "content"
 
