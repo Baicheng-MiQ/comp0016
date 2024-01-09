@@ -4,7 +4,7 @@ Category: Guide
 
 # Visit hosted website [here](http://students.cs.ucl.ac.uk/2023/group25/)
 
-![Screenshot](images/readme-screenshot.png)
+![Screenshot](../images/readme-screenshot.png)
 
 # Introduction to Pelican
 The blog is powered by [Pelican](https://blog.getpelican.com/).
@@ -32,7 +32,7 @@ blablabla
 I've set up a GitHub Actions workflow to automatically deploy the website to the UCL server.
 
 Simply push to the `main` branch and the website will be automatically deployed to the UCL server.
-![deploy](images/readme-github-action.png)
+![deploy](../images/readme-github-action.png)
 
 # Manual deployment
 Normally you don't need to do this since the website is automatically deployed by GitHub Actions. However, if you want to deploy the website manually, follow the steps below.
