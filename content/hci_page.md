@@ -51,9 +51,37 @@ Sam, has been an avid gamer his whole life. When he was younger sam loved to pla
 
 
 # Sketches 
+### After receiving our requirements and trying to understand the personas of those using the software, we decided to drafts some sketches of what the software will look like.
+
+![Screenshot](../images/readme-sketches1.png)
+
+### The first illustration was to highlight the user profile page which is at the core of the user's experience with the software. This profile page is where users will be able to sift through option such as using one or both eyes or hands, as well as selecting a specific motion to invoke a (double)click. Furthermore the profile page will guide the users to be situated in the best position to begin the calibration process.
+
+![Screenshot](../images/readme-sketches2.png)
 
 # Intitial Prototype 
+### Below is the first drafts of the prototype we designed using Figma.
+ 
+![Screenshot](../images/readme-initPrototype.png)
+
+### Below are the initial load up screens, showing the change of screen when a button like “Both eyes” is clicked. 
+
+![Screenshot](../images/readme-initPrototype2.png)
+
+### Below shows the window that would appear in order to ensure the user is sitting at the correct distance from the screen
+
+![Screenshot](../images/readme-initPrototype3.png)
 
 # Heuritistic Evaluation 
 
+![Screenshot](../images/readme-heuristics.png)
+
 # Revised Prototype 
+### After receiving our feedback we decided to implement the changes.
+### We allowed the user to choose a colour theme in the additional settings page. Additionally, added images and simplified the language, allowing the pages to be understood more easily. 
+
+![Screenshot](../images/readme-finalPrototype1.png)
+
+![Screenshot](../images/readme-finalPrototype2.png)
+
+![Screenshot](../images/readme-finalPrototype3.png)

@@ -6,7 +6,7 @@ Category: Blog
 
 MotionInput technology, a revolutionary touchless computing system. It enables users to control and interact with their computer by capturing physical gestures through their webcam. With this platform, users can replace traditional input devices like keyboards, mice, or gamepads and instead utilize gestures based on movements of their hands, head, eyes, or even their whole body.
 
-## General Porject Guidence 
+## General Project Guidence 
 
 Our project is devoted to the eye movement, allowing a user to control they device by simply moving they eyes. Additionally our project works on implementing a calibration to improve the accuracy and thus the usability.
 
