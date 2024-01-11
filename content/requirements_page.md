@@ -14,3 +14,6 @@ These requiremtns are set on conditions that the users head is in a fixed positi
 
 
 ## Contractures
+The contractures requirements involve applying the UI of the eyeGaze onto the contructures software
+Contractures are tracked based upon the fact they move across a flat table or  2D plane.
+Therfore the UI should ensure the camera posotion/ hand position are in the correct place in order for the software to start working. 

@@ -62,15 +62,15 @@ Sam, has been an avid gamer his whole life. When he was younger sam loved to pla
 # Intitial Prototype 
 ### Below is the first drafts of the prototype we designed using Figma.
  
-![Screenshot](../images/readme-initPrototype.png)
+![Screenshot](../images/readme-initProtoype.png)
 
 ### Below are the initial load up screens, showing the change of screen when a button like “Both eyes” is clicked. 
 
-![Screenshot](../images/readme-initPrototype2.png)
+![Screenshot](../images/readme-initProtoype2.png)
 
 ### Below shows the window that would appear in order to ensure the user is sitting at the correct distance from the screen
 
-![Screenshot](../images/readme-initPrototype3.png)
+![Screenshot](../images/readme-initProtoype3.png)
 
 # Heuritistic Evaluation 
 
@@ -80,8 +80,8 @@ Sam, has been an avid gamer his whole life. When he was younger sam loved to pla
 ### After receiving our feedback we decided to implement the changes.
 ### We allowed the user to choose a colour theme in the additional settings page. Additionally, added images and simplified the language, allowing the pages to be understood more easily. 
 
-![Screenshot](../images/readme-finalPrototype1.png)
+![Screenshot](../images/readme-finalProtoype1.png)
 
-![Screenshot](../images/readme-finalPrototype2.png)
+![Screenshot](../images/readme-finalProtoype2.png)
 
-![Screenshot](../images/readme-finalPrototype3.png)
+![Screenshot](../images/readme-finalProtoype3.png)
