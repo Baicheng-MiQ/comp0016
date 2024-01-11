@@ -1,8 +1,8 @@
 AUTHOR = 'Group 25'
 SITENAME = 'COMP0016 Group 25 Blog'
 SITEURL = "https://students.cs.ucl.ac.uk/2023/group25"
-# SITEURL = "http://localhost:8000"
-
+#SITEURL = "http://localhost:8000"
+#above is for running locally
 PATH = "content"
 
 TIMEZONE = 'GMT'
