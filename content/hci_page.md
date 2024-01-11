@@ -51,11 +51,11 @@ Sam, has been an avid gamer his whole life. When he was younger sam loved to pla
 
 
 # Sketches 
-### After receiving our requirements and trying to understand the personas of those using the software, we decided to drafts some sketches of what the software will look like.
+### After receiving our requirements and trying to understand the personas of those using the software, we decided to draft some sketches of what the software will look like.
 
 ![Screenshot](../images/readme-sketches1.png)
 
-### The first illustration was to highlight the user profile page which is at the core of the user's experience with the software. This profile page is where users will be able to sift through option such as using one or both eyes or hands, as well as selecting a specific motion to invoke a (double)click. Furthermore the profile page will guide the users to be situated in the best position to begin the calibration process.
+### The first illustration was to highlight the user profile page which is at the core of the user's experience with the software. This profile page is where users will be able to sift through options such as using one or both eyes or hands, as well as selecting a specific motion to invoke a (double)click. Furthermore the profile page will guide the users to be situated in the best position to begin the calibration process.
 
 ![Screenshot](../images/readme-sketches2.png)
 
@@ -72,7 +72,7 @@ Sam, has been an avid gamer his whole life. When he was younger sam loved to pla
 
 ![Screenshot](../images/readme-initProtoype3.png)
 
-# Heuritistic Evaluation 
+# Heuristic Evaluation 
 
 ![Screenshot](../images/readme-heuristics.png)
 

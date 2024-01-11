@@ -12,3 +12,4 @@ insert the image of deans MI strcuture
 insert sarahs image 
 
 # Design Goals 
+

@@ -8,9 +8,9 @@ MotionInput technology, a revolutionary touchless computing system. It enables u
 
 ## General Project Guidence 
 
-Our project is devoted to the eye movement, allowing a user to control they device by simply moving they eyes. Additionally our project works on implementing a calibration to improve the accuracy and thus the usability.
+Our project is devoted to the eye movement, allowing a user to control their device by simply moving they eyes. Additionally our project works on implementing a calibration to improve the accuracy and thus the usability.
 
-Additionally we will be working on contractures. this imvoles ensuring that the movement is tracked accordinly. We will be doing via a 2d plane at which the hands are places upon. 
+Additionally we will be working on contractures, this involes ensuring that the movement is tracked accordinly. We will be doing via a 2d plane at which the hands are placed upon. 
 
 ## Timeline Of our Project 
 
