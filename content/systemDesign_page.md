@@ -5,11 +5,11 @@ Category: System Articheture
 ## Our systems design will serve as a blueprint and a brief outline as to what we will need to create and build.
 
 # MotionInput System Architecture 
-insert the image of deans MI strcuture 
+![Screenshot](../images/readme-timeline.png)
 
 # Backend Design 
 
 insert sarahs image 
 
 # Design Goals 
-
+![Screenshot](../images/readme-timeline2.png)

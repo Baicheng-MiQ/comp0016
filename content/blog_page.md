@@ -14,5 +14,5 @@ Additionally we will be working on contractures, this involes ensuring that the 
 
 ## Timeline Of our Project 
 
-insert gant chart here
+![Screenshot](../images/readme-timeline2.png)
 
