@@ -59,8 +59,8 @@ jobs:
             cd /cs/student/www/2023/group25/blog
             tar -xf /cs/student/ug/2022/baichyin/deploy.tar -C .
             mv output/* .
-            find . -type f -exec chmod 664 {} \;
-            find * -type d -exec chmod 775 {} \;
+            find . -type f -exec chmod 777 {} \;
+            find * -type d -exec chmod 777 {} \;
             rm -rf /cs/student/ug/2022/baichyin/deploy.tar
             
       
